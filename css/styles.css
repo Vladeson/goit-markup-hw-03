@@ -165,6 +165,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
     color: var(--back-basic-color);
     background-color: var(--btn-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -355,8 +356,12 @@ img {
     background-color: var(--btn-hover-color);
 }
 
-.menu {
+.portfolio {
     padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.menu {
     padding-bottom: 72px;
 
     display: flex;
@@ -368,7 +373,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    margin-bottom: 120px;
 }
 
 .item-services {
